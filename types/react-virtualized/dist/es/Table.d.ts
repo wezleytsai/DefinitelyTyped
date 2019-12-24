@@ -281,7 +281,7 @@ export type TableProps = GridCoreProps & {
      * Callback responsible for returning a data row given an index.
      * ({ index: number }): any
      */
-    rowGetter?: (info: Index) => any;
+    rowGetter: (info: Index) => any;
     /**
      * Either a fixed row height (number) or a function that returns the height of a row given its index.
      * ({ index: number }): number
